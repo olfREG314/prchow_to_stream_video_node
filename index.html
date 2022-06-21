@@ -1,0 +1,30 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video streamming</title>
+  </head>
+  <body>
+    <div>
+      <video
+        id="videoplayer"
+        width="720px"
+        controls
+        muted="muted"
+        autoplay
+        loop
+      >
+        <source src="http://localhost:8000/video" type="video/mp4" />
+      </video>
+    </div>
+    <div>
+      <video id="videoplayer2" width="720px" controls muted="muted" autoplay>
+        <source src="http://localhost:3000/video2" type="video/mp4" />
+      </video>
+    </div>
+  </body>
+</html>
